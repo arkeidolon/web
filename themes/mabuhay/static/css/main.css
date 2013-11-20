@@ -6,30 +6,68 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Raleway, sans-serif;
 }
 
+a {
+  color: #5a9fd4;
+}
+
+a:hover {
+  color: #5a9fd4;
+}
+
+button, .button {
+  background-color: #ffd43b;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  border: 0;
+  color: #222;
+  font-weight: 400;
+}
+
+button:hover, .button:hover {
+  background-color: #5a9fd4;
+}
+
 .site-header {
-  margin-bottom: 2em;
-  border-bottom: 1px solid #eee;
+  margin: 2em 0;
 }
 
 .site-header h1 {
   margin: 0;
+  font-size: 32px;
+}
+
+.site-header h1 a {
+  display: inline-block;
+  color: inherit;
   line-height: 80px;
+  background: url(../images/pythonph-72.png) no-repeat left center;
+  padding-left: 80px;
+}
+
+.site-nav {
+  border-bottom: 3px solid #ffd43b;
 }
 
 .site-nav li {
   padding-bottom: 0;
+  text-align: center;
 }
 
 .site-nav li a {
   display: inline-block;
-  padding-left: 1em;
-  border-left: 1px #eee solid;
   line-height: 80px;
 }
 
 .site-footer {
   padding-top: 2em;
   color: #999;
+}
+
+.site-footer .links,
+.site-footer .powered-by {
+  font-size: 80%;
 }
 
 .articles article {

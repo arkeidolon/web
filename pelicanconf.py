@@ -28,9 +28,7 @@ TRANSLATION_FEED_ATOM = None
 
 DEFAULT_PAGINATION = 10
 
-#THEME = 'themes/mabuhay'
-THEME = 'themes/snake-squares'
-THEME_STATIC_DIR = THEME + '/static'
+THEME = 'themes/mabuhay'
 
 MENUITEMS = (
   ('Home', '/'),

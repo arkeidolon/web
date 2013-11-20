@@ -40,10 +40,10 @@
 
   <header class="site-header">
     <div class="row">
-      <div class="large-4 columns">
+      <div class="large-6 columns">
         <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
       </div>
-      <div class="large-8 columns">
+      <div class="large-6 columns">
         <nav class="site-nav">
           <ul class="large-block-grid-4">
           {% for title, link in MENUITEMS %}
@@ -75,9 +75,18 @@
 
   <footer class="site-footer">
     <div class="row">
-      <div class="large-12 columns">
-        Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-        which takes great advantage of <a href="http://python.org">Python</a>.
+      <div class="large-6 columns">
+        <p class="links">
+          <a href="https://www.facebook.com/groups/pythonph">Facebook</a>
+          &mdash;
+          <a href="https://github.com/pythonph">Github</a>
+        </p>
+      </div>
+      <div class="large-6 columns text-right">
+        <p class="powered-by">
+          Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+          which takes great advantage of <a href="http://python.org">Python</a>.
+        </p>
       </div>
     </div>
   </footer>
